@@ -1,0 +1,247 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(212, 210, 210);
+    
+}
+
+#navbar{
+    z-index: 50;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: yellow; */
+}
+
+#pseudo_bar{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+#nyke_logo{
+    height: 70%;
+    width: 10%;
+    margin-left: 10px;
+    margin-right: 20px;
+    object-fit: contain;
+    background-color: bisque;
+    background-size: cover;
+    background-position: center;
+    background-image:url(https://i.pinimg.com/736x/db/8d/29/db8d29d63475de89c38ebbce675303d2.jpg);
+}
+
+.text{
+    padding: 8px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 45%;
+    
+}
+
+.text:hover{
+    background-color: rgb(138, 136, 136);
+}
+
+#tools{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 18%;
+    /* background-color: white; */
+    margin-left: 350px;
+    margin-right: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.icons{
+    height: 70%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border: 1px;
+    border-radius: 50%;
+}
+
+.icons:hover{
+    background-color: rgb(138, 136, 136);
+}
+
+
+#page{
+    height: 90vh;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#left{
+    height: 100%;
+    width: 40%;
+    /* background-color: white; */
+    padding: 70px;
+    display: flow-root;
+}
+.text1{
+    height: auto;
+    width: 100%;
+    padding: 15px;
+    margin-top: 35px;
+    /* background-color: aquamarine; */
+    margin-bottom: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: left;
+    text-align: left;
+    
+    
+}
+
+.para{
+    height: auto;
+    width: 100%;
+    padding: 15px;
+    padding-right: 152px;
+    /* background-color: aquamarine; */
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: left;
+    text-align: left;
+}
+
+#shop_now{
+    height: 9%;
+    width: 35%;
+    margin-left: 15px;
+    background-color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+
+#shop_now:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+#right{
+    height: 100%;
+    width: 60%;
+    margin-left: 10px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+
+.prod{
+    border-radius: 15px;
+    background-color: rgb(152, 151, 151);
+    height: 70%;
+    width: 30%;
+    padding: 10px;
+    /* text-align: center;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+#images1{
+    height: 70%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7b6090af-7d8d-473f-b9cf-2d8fe719a000/NIKE+ZOOMX+INVINCIBLE+RUN+FK+3.png);
+    object-fit: fill;
+    overflow: hidden;
+    padding: 20px;
+}
+
+#images2{
+    height: 70%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b1bcbca4-e853-4df7-b329-5be3c61ee057/NIKE+DUNK+LOW+RETRO.png);
+    object-fit: fill;
+    overflow: hidden;
+    padding: 20px;
+}
+
+#images3{
+    height: 70%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRs0_LvQJjbnBJ-DLKA7GPMRtHMPICiynL7T-dMI_vafVDQFHfUfcjgzROTKPO72P8Wxp7zln6nMmKyRiS46nIkn2JVsPKlazvzL1WRlg7v1RPqhcNAzxEQ);
+    object-fit: fill;
+    overflow: hidden;
+    padding: 20px;
+}
+
+
+
+.desc{
+    height: 26%;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.name{
+    height: 100%;
+    width: 60%;
+    padding: 15px;
+    display: flex;
+}
+
+.wishlist{
+    height: 50%;
+    width: 18%;
+    display: flex;
+    /* background-color: rgb(177, 174, 174); */
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    border-radius: 50%;
+}
+
+.wishlist:hover{
+    background-color: rgb(138, 136, 136);
+}
+
+
+
+
+
+
